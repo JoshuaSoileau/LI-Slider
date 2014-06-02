@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="jquery.1.7.1.min.js" ></script>
+    <script src="listCarousel.js"></script>
+
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);html{background:#77E0BC;font-family:'Open Sans';color:#666;text-align:center}ul{width:70%}li{background:#ccc;margin-bottom:10px;font-size:1.3em}h2{font-size:2.4em;color:white}.even{background-color:#e7e7e7}
+    </style>
+</head>
+
+<body>
+
+
+    <h2>Josh's Hero Slider</h2>
+
+    <!-- UNCOMMENT THE DESIRED <UL> FOR TESTING -->
+
+    <!-- List of just text -->
+    <!--<ul id="cms-slider">-->
+        <!--<li class="odd">Slide 1</li>-->
+        <!--<li class="even">Slide 2</li>-->
+        <!--<li class="odd">Slide 3</li>-->
+        <!--<li class="even">Slide 4</li>-->
+    <!--</ul>-->
+
+    <!-- List of just images -->
+    <ul id="cms-slider">
+        <li><img src="http://www.getours.com/blog/wp-content/uploads/2013/05/dana-italy9.jpg" alt="" class="first"></li>
+        <li><img src="http://ppcdn.500px.org/18349925/391c74c94517b36efb18a5d5b8c75b1922ccb3a9/5.jpg" alt="" class=""></li>
+        <li><img src="http://1.bp.blogspot.com/-ajKP1dsO4XE/UAx0hpKLPFI/AAAAAAAAEtI/yktlGRtTWrw/s1600/IMG_1216.JPG" alt="" class=""></li>
+        <li><img src="http://1.bp.blogspot.com/-vdx75oQX0pE/UBFyDNmBCXI/AAAAAAAAE3s/gT5u4DT-ugI/s1600/IMG_2545.JPG" alt="" class=""></li>
+        <li><img src="http://www.getours.com/blog/wp-content/uploads/2013/05/dana-italy5.jpg" alt="" class=""></li>
+        <li><img src="http://www.getours.com/blog/wp-content/uploads/2013/05/dana-italy10.jpg" alt="" class="last"></li>
+    </ul>
+
+    <!-- List of footer links -->
+    <!--<ul id="cms-slider" class="links">-->
+        <!--<li class="first"><a href="http://vie.dev/catalog/seo_sitemap/category/" title="Site Map">Site Map</a></li>-->
+        <!--<li><a href="http://vie.dev/catalogsearch/term/popular/" title="Search Terms">Search Terms</a></li>-->
+        <!--<li><a href="http://vie.dev/catalogsearch/advanced/" title="Advanced Search">Advanced Search</a></li>-->
+        <!--<li><a href="http://vie.dev/sales/guest/form/" title="Orders and Returns">Orders and Returns</a></li>-->
+        <!--<li class=" last"><a href="http://vie.dev/contacts/" title="Contact Us">Contact Us</a></li>-->
+    <!--</ul>-->
+
+    <script>
+        $(function() {
+            $('#cms-slider').listCarousel();
+        })
+    </script>
+
+</body>
+
+</html>
